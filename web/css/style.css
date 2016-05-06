@@ -1,0 +1,216 @@
+/*General Layout of the whole website*/
+body {
+    background: url(../images/bg-body.jpg) repeat left top;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 960px;
+    margin: 0;
+}
+
+img {
+    border:0;
+}
+
+/*-----------------Header-------------------*/
+#header {
+    background: url(../images/nav-button.jpg) repeat-x center top;
+    height: 50px;
+    padding: 0 50px;
+    text-align: right;
+}
+
+/* Logo */
+#logo {
+    float: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* The menu */
+#navigate ul{
+    margin:0;
+    padding:0;
+}
+
+#navigate li{
+    width:100px;
+    height:50px;
+    float:left;
+    text-align:center;
+    overflow:hidden;
+}
+
+#navigate {
+    float:right;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+}
+
+#navigate ul li:hover {
+    text-decoration:underline;
+}
+
+#navigate ul li p {
+    padding: 0px 5px;
+    cursor:default;
+}
+
+#navigate ul li p #subtext {
+    text-decoration:none;
+}
+
+.subtext {
+    padding-top: 15px;
+}
+
+.forum a:link {
+    color:black;
+    text-decoration: none;
+}
+
+.forum a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+/*assigning the images for each menu item */
+.home, .forum, .window, .dream, .rain, .object, .gallery, .about, .contact {
+    background: #ff9300 top left no-repeat;
+}
+/*------------------------------ Contents ------------------------------*/
+#content {
+    background:#000000 url(../images/bg-content.png) repeat-x center top;
+    z-index:2;
+    border-left-style:groove;
+    border-right-style:groove;
+    border-bottom-style:groove;
+    margin: 0 100px;
+    padding: 5px 0;
+}
+
+#content .body {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+/** adbox **/
+#adbox {
+    background: #000000 url(../images/content-background.jpg) top left;
+    z-index:1;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    min-height: 433px;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    padding:70px 20px 0;
+}
+
+#adbox h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-style: italic;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+#adbox p {
+    color: #176eb0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#adbox p a {
+    color: #176eb0;
+}
+
+#adbox ul {
+    list-style:none;
+}
+
+#adbox ul li a {
+    color: #176eb0;
+    text-decoration:underline;
+}
+
+#adbox  ul ul {
+    font-size: 12px;
+}
+
+#adbox div.wisewords {
+    background: #0079ad url(../images/bg-heading.jpg) repeat-x left top;
+    min-height: 30px;
+    width:100%;
+    border-color: #000;
+    border-style: solid none;
+    border-width: 1px;
+}
+
+#adbox div.wisewords h2 {
+    color: #ff5300;
+    font-size: 14px;
+    line-height: 13px;
+    margin: 0 auto;
+    padding: 35px 0 10px;
+    text-shadow: -3px 0 3px #121413;
+}
+
+#adbox div.wisewords h2 i {
+    font-weight: normal;
+}
+
+#adbox dl dt{
+    color: #FF5300;
+}
+
+#adbox dl dd {
+    color:#176eb0;
+}
+
+#info {
+    margin: 0 40px 0;
+    padding: 75px 40px 20px;
+    background-color:#020a13;
+}
+
+#sidepic {
+    float:right;
+    position:static;
+    margin:130px 0 0;
+    padding:60px 40px 40px;
+}
+
+form {
+    color:#176eb0;
+}
+/*-------------------Footer------------------*/
+
+#footer {
+    background: #e8eff4 url(../images/bg-footer.jpg) no-repeat center top;
+    border-top: 1px solid #fdfcfc;
+    font-family:"AR DESTINE Medium", Arial, Comic Sans MS;
+    color: #03436f;
+    height:136px;
+    margin:0;
+    padding:0;
+}
+
+#footer span {
+    font-style:italic;
+    font-size:10px;
+}
+
+/*-------------------SIDEBAR-------------------*/
+#sidebar {
+    color:#03436f;
+    background:#000000;
+    position:fixed;
+    float:left;
+    width:80px;
+    margin:0;
+    padding:10px;
+    border:0;
+}

@@ -1,0 +1,327 @@
+/* 
+    Document   : forumStyle
+    Created on : Oct 15, 2013, 2:35:28 PM
+    Author     : ll931217
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    margin: 0;
+    font-family: fantasy;
+    background-color: #343434;
+}
+
+a {
+    -webkit-transition: all ease .2s;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    transition: all ease .2s;
+    padding: 3px;
+}
+
+li {
+    list-style: none;
+}
+
+#container {
+    background-color: #0079ad;
+    margin: 0 100px;
+    box-shadow: 2px 0 8px 2px rgba(0,0,0,.7);
+    z-index: 8;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#header {
+    background: #ff9300 url(../images/bg-footer.jpg) no-repeat center top;
+    background-size: 100% 218px;
+    padding: 130px 50px 0;
+    height: 90px;
+    color: white;
+}
+
+#nav {
+    background: #FF9300 repeat-x left top;
+    height: 50px;
+    color:black;
+}
+
+#nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#nav li{
+    width:100px;
+    height:50px;
+    float:left;
+    text-align:center;
+    overflow:hidden;
+}
+
+#nav ul li p {
+    padding: 0px 5px;
+    cursor:default;
+}
+
+#nav a {
+    color:black;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color:black;
+    text-decoration: underline;
+}
+
+#main-navs {
+    float:left;
+    text-align: left;
+    word-spacing: 8px;
+}
+
+#login, #logout {
+    text-align: right;
+    padding: 15px 20px 0 20px;
+}
+
+.subtext {
+    padding-top: 15px;
+}
+
+.home, .faq, .register, .contact, .gallery, .room {
+    background: #ff9300;
+    background-color: rgba(255,147,0,.7);
+    border-radius: 4px;
+}
+
+#content {
+    color: #fff;
+    padding: 50px 80px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content a:link {
+    color: #343434;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+#content a:visited {
+    color: #343434;
+}
+
+#content a:hover {
+    color: #000;
+    background-color: #234;
+    background-color: rgba(0,0,0,.5);
+}
+
+#content h1 {
+    font-size: 28px;
+    padding: 0 20px;
+    text-shadow: 2px 2px 4px black;
+}
+
+#content span {
+    float: right;
+    font-size: 12px;
+    padding: -25px 0;
+}
+
+#highlight {
+    padding: 10px;
+    background-color: #2e2e2e;
+    border-radius: 8px;
+}
+
+#highlight p {
+    margin: 30px 0 0;
+    padding: 50px 30px;
+    background-color: white;
+    box-shadow: 2px 0 8px 2px rgba(0,0,0,.7);
+    color: black;
+}
+
+#general {
+    padding: 10px;
+    margin: 50px 0 0;
+    background-color: #2e2e2e;
+    border-radius: 8px;
+}
+
+#general p {
+    margin: 0;
+    padding: 50px 30px;
+    background-color: white;
+    box-shadow: 2px 0 8px 2px rgba(0,0,0,.7);
+    color:black;
+}
+
+#comment {
+    padding: 10px;
+    margin: 50px 0 0;
+    background-color: #2e2e2e;
+    border-radius: 8px;
+}
+
+#comment p {
+    margin: 0;
+    padding: 50px 30px;
+    background-color: white;
+    box-shadow: 2px 0 8px 2px rgba(0,0,0,.7);
+    color:black;
+}
+
+#footer {
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 1px;
+    margin-bottom: 50px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#footer a:link {
+    color: #343434;
+    text-decoration: underline;
+}
+
+#footer a:visited {
+    color: #343434;
+}
+
+#footer a:hover {
+    color: #343434;
+    text-decoration: underline;
+    border-bottom: 1px solid black;
+}
+
+#footer hr {
+    box-shadow: 0 0 8px 2px rgba(0,0,0,.7);
+}
+
+#footer .top {
+    float:right;
+}
+
+#flogo a {
+    border: 0;
+    padding: 21px 0 5px 0;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    position: fixed;
+    top: -20px;
+    height: 22px;
+    box-shadow: 0 0 8px 2px rgba(0,0,0,.7);
+    width: 160px;
+    margin:0;
+    right: 120px;
+}
+
+#flogo a:hover {
+    padding-top: 28px;
+    background: #fff;
+}
+
+#extra {
+    background: #e80;
+    color: black;
+}
+
+form {
+    box-shadow: 2px 0 8px 2px rgba(0,0,0,.7);
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.login a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+.login {
+    margin: 0 300px;
+    border-radius: 8px;
+}
+
+.welcome {
+    background-color: #2e2e2e;
+    border: 0;
+    box-shadow: 2px 0 8px 2px rgba(0,0,0,.7);
+    border-radius: 10px;
+    padding: 20px 10px 40px 22px;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    height: 22px;
+    width: 160px;
+    left: 140px;
+    margin:0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.welcome a:link {
+    color:#0079ad;
+}
+
+.welcome a:hover {
+    color:#ffffff;
+}
+
+.welcome a:visited {
+    color: #0079ad;
+}
+
+#reply {
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+#post_comment, #post_reply, #confirm {
+    display: none;
+}
+
+#error {
+	color: #fff;
+    padding: 50px 80px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: red;
+}
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
